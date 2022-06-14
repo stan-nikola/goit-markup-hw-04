@@ -361,6 +361,9 @@ address {
   display: flex;
   justify-content: center;
 }
+.social-item + .social-item {
+  margin-left: 10px;
+}
 
 .social-link {
   display: flex;
@@ -546,7 +549,7 @@ address {
   border-radius: 50%;
 }
 .footer-social-icon {
- fill: var(--secondary-icon-fill);
+  fill: var(--secondary-icon-fill);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
